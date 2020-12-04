@@ -1,6 +1,6 @@
 # checker
 
-A link and ID checker.
+A link checker.
 
 ## Usage
 
