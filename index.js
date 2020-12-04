@@ -58,7 +58,7 @@ async function migrate(targets, done) {
     }
     let redirects = data.redirects.map(redirect => {
       const from = `- from: ${new URL(redirect.from).pathname}`;  
-      const to = redirect.to.includes('https://developer.chrome.com') ?
+      const to = redirect.to.includes('https://developer.chrome.com') || redirect.to.includes('http://localhost:8080') ?
           `  to: ${new URL(redirect.to).pathname}` :
           `  to: ${redirect.to}`;
       return `${from}\n${to}\n`;
