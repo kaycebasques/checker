@@ -12,3 +12,7 @@ A link checker.
 
 The results will be written to `report.txt` as JSON.
 Needed redirects will be written to `redirects.txt`.
+
+<!-- TODO
+  Check external 404s (example: https://developer.chrome.com/extensions/cloudMessaging)
+-->

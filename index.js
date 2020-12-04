@@ -46,14 +46,25 @@ async function migrate(targets, done) {
         waitUntil: 'networkidle0'
       });
       const url = await page.url();
-      if (url !== target) data.redirects.push({from: target, to: url});
-      if (response.status() >= 400) data.errors.push(target);
+      if (url !== target) {
+        response.status() >= 400 ? data.errors.push(target) : data.redirects.push({from: target, to: url});
+      } else {
+        response.status() >= 400 ? data.errors.push(target) : data.ok.push(target);
+      }
     } catch (error) {
       console.error(`Error visiting ${target}`);
+      data.errors.push(target);
       continue;
     }
-    const redirects = data.errors.map(redirect => `- from: ${new URL(redirect).pathname}\n  to: `);
-    fs.writeFileSync('redirects.txt', redirects.join('\n\n'));
+    let redirects = data.redirects.map(redirect => {
+      const from = `- from: ${new URL(redirect.from).pathname}`;  
+      const to = redirect.to.includes('https://developer.chrome.com') ?
+          `  to: ${new URL(redirect.to).pathname}` :
+          `  to: ${redirect.to}`;
+      return `${from}\n${to}\n`;
+    });
+    let errors = data.errors.map(error => `- from: ${new URL(error).pathname}\n  to: \n`);
+    fs.writeFileSync('redirects.txt', redirects.concat(errors).join('\n'));
     fs.writeFileSync('report.txt', JSON.stringify(data, null, '  '));
   }
   console.log(data);

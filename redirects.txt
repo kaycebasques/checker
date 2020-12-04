@@ -1,0 +1,242 @@
+- from: /extensions/
+  to: /extensions
+
+- from: /extensions/about_apps
+  to: /apps/about_apps
+
+- from: /extensions/analytics
+  to: /apps/analytics
+
+- from: /extensions/angular_framework
+  to: /apps/angular_framework
+
+- from: /extensions/app_architecture
+  to: /apps/app_architecture
+
+- from: /extensions/app_bluetooth
+  to: /apps/app_bluetooth
+
+- from: /extensions/app_codelab_alarms
+  to: /apps/app_codelab_alarms
+
+- from: /extensions/app_codelab_basics
+  to: /apps/app_codelab_basics
+
+- from: /extensions/app_codelab_filesystem
+  to: /apps/app_codelab_filesystem
+
+- from: /extensions/app_codelab_images
+  to: /apps/app_codelab_images
+
+- from: /extensions/app_codelab_import_todomvc
+  to: /apps/app_codelab_import_todomvc
+
+- from: /extensions/app_codelab_intro
+  to: /apps/app_codelab_intro
+
+- from: /extensions/app_codelab_mobile
+  to: /apps/app_codelab_mobile
+
+- from: /extensions/app_codelab_publish
+  to: /apps/app_codelab_publish
+
+- from: /extensions/app_codelab_webview
+  to: /apps/app_codelab_webview
+
+- from: /extensions/app_deprecated
+  to: /apps/app_deprecated
+
+- from: /extensions/app_external
+  to: /apps/app_external
+
+- from: /extensions/app_frameworks
+  to: /apps/app_frameworks
+
+- from: /extensions/app_intents
+  to: /apps/app_intents
+
+- from: /extensions/app_lifecycle
+  to: /apps/app_lifecycle
+
+- from: /extensions/app_network
+  to: /apps/app_network
+
+- from: /extensions/app_serial
+  to: /apps/app_serial
+
+- from: /extensions/app_storage
+  to: /apps/app_storage
+
+- from: /extensions/app_usb
+  to: /apps/app_usb
+
+- from: /extensions/arc_in_app_payments
+  to: https://developer.android.com/chrome-os/intro
+
+- from: /extensions/arc_playservices
+  to: https://developer.android.com/chrome-os/intro.html
+
+- from: /extensions/autoupdate
+  to: /extensions/hosting
+
+- from: /extensions/chrome_apps_on_mobile
+  to: /apps/chrome_apps_on_mobile
+
+- from: /extensions/crx
+  to: /extensions/hosting
+
+- from: /extensions/develop_apps
+  to: /apps/develop_apps
+
+- from: /extensions/devtools.inspectedWindow
+  to: /extensions/devtools_inspectedWindow
+
+- from: /extensions/devtools.network
+  to: /extensions/devtools_network
+
+- from: /extensions/devtools.panels
+  to: /extensions/devtools_panels
+
+- from: /extensions/enterprise.deviceAttributes
+  to: /extensions/enterprise_deviceAttributes
+
+- from: /extensions/enterprise.hardwarePlatform
+  to: /extensions/enterprise_hardwarePlatform
+
+- from: /extensions/enterprise.networkingAttributes
+  to: /extensions/enterprise_networkingAttributes
+
+- from: /extensions/enterprise.platformKeys
+  to: /extensions/enterprise_platformKeys
+
+- from: /extensions/extensions/declare_permissions
+  to: /extensions/declare_permissions
+
+- from: /extensions/extensions/manifest
+  to: /extensions/manifest
+
+- from: /extensions/extensions/match_patterns
+  to: /extensions/match_patterns
+
+- from: /extensions/extensions/messaging
+  to: /extensions/messaging
+
+- from: /extensions/extensions/options
+  to: /extensions/options
+
+- from: /extensions/extensions/override
+  to: /extensions/override
+
+- from: /extensions/extensions/permission_warnings
+  to: /extensions/permission_warnings
+
+- from: /extensions/extensions/runtime
+  to: /extensions/runtime
+
+- from: /extensions/extensions/storage
+  to: /extensions/storage
+
+- from: /extensions/extensions/tabs
+  to: /extensions/tabs
+
+- from: /extensions/first_app
+  to: /apps/first_app
+
+- from: /extensions/game_engines
+  to: /apps/game_engines
+
+- from: /extensions/getstarted_arc
+  to: https://developer.android.com/chrome-os/intro.html
+
+- from: /extensions/input.ime
+  to: /extensions/input_ime
+
+- from: /extensions/manifest/file_system_provider
+  to: /extensions/fileSystemProvider
+
+- from: /extensions/mdns
+  to: /apps/mdns
+
+- from: /extensions/migration
+  to: /apps/migration
+
+- from: /extensions/networking.config
+  to: /extensions/networking_config
+
+- from: /extensions/offline_apps
+  to: /apps/offline_apps
+
+- from: /extensions/offline_storage
+  to: /apps/offline_storage
+
+- from: /extensions/omniBox
+  to: /extensions/omnibox
+
+- from: /extensions/optionsV2
+  to: /extensions/options
+
+- from: /extensions/packaging
+  to: /extensions/hosting
+
+- from: /extensions/pillar
+  to: /apps/pillar
+
+- from: /extensions/publish_app
+  to: /apps/publish_app
+
+- from: /extensions/sencha_framework
+  to: /apps/sencha_framework
+
+- from: /extensions/system.cpu
+  to: /extensions/system_cpu
+
+- from: /extensions/system.display
+  to: /apps/system_display
+
+- from: /extensions/system.memory
+  to: /extensions/system_memory
+
+- from: /extensions/system.storage
+  to: /extensions/system_storage
+
+- from: /extensions/api_
+  to: 
+
+- from: /extensions/app_csp
+  to: 
+
+- from: /extensions/app_manifestVersion
+  to: 
+
+- from: /extensions/cloudMessaging
+  to: 
+
+- from: /extensions/declaratively
+  to: 
+
+- from: /extensions/displaySource
+  to: 
+
+- from: /extensions/dns
+  to: 
+
+- from: /extensions/experimental_devtools_console
+  to: 
+
+- from: /extensions/extensions_index
+  to: 
+
+- from: /extensions/extensions/api_
+  to: 
+
+- from: /extensions/idltest
+  to: 
+
+- from: /extensions/inform_users
+  to: 
+
+- from: /extensions/login
+  to: 
+
+- from: /extensions/loginScreenStorage
+  to: 
