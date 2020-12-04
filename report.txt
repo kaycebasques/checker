@@ -1,456 +1,601 @@
 {
-  "ok": [
-    "https://developer.chrome.com/extensions",
-    "https://developer.chrome.com/extensions/a11y",
-    "https://developer.chrome.com/extensions/accessibilityFeatures",
-    "https://developer.chrome.com/extensions/activeTab",
-    "https://developer.chrome.com/extensions/alarms",
-    "https://developer.chrome.com/extensions/api_index",
-    "https://developer.chrome.com/extensions/api_other",
-    "https://developer.chrome.com/extensions/app_identity",
-    "https://developer.chrome.com/extensions/apps",
-    "https://developer.chrome.com/extensions/background_migration",
-    "https://developer.chrome.com/extensions/background_pages",
-    "https://developer.chrome.com/extensions/bookmarks",
-    "https://developer.chrome.com/extensions/browserAction",
-    "https://developer.chrome.com/extensions/browsingData",
-    "https://developer.chrome.com/extensions/certificateProvider",
-    "https://developer.chrome.com/extensions/commands",
-    "https://developer.chrome.com/extensions/content_scripts",
-    "https://developer.chrome.com/extensions/contentSecurityPolicy",
-    "https://developer.chrome.com/extensions/contentSettings",
-    "https://developer.chrome.com/extensions/contextMenus",
-    "https://developer.chrome.com/extensions/cookies",
-    "https://developer.chrome.com/extensions/debugger",
-    "https://developer.chrome.com/extensions/declarativeContent",
-    "https://developer.chrome.com/extensions/declarativeNetRequest",
-    "https://developer.chrome.com/extensions/declarativeWebRequest",
-    "https://developer.chrome.com/extensions/declare_permissions",
-    "https://developer.chrome.com/extensions/desktop_notifications",
-    "https://developer.chrome.com/extensions/desktopCapture",
-    "https://developer.chrome.com/extensions/devguide",
-    "https://developer.chrome.com/extensions/devtools",
-    "https://developer.chrome.com/extensions/devtools_inspectedWindow",
-    "https://developer.chrome.com/extensions/devtools_network",
-    "https://developer.chrome.com/extensions/devtools_panels",
-    "https://developer.chrome.com/extensions/documentScan",
-    "https://developer.chrome.com/extensions/downloads",
-    "https://developer.chrome.com/extensions/enterprise_deviceAttributes",
-    "https://developer.chrome.com/extensions/enterprise_hardwarePlatform",
-    "https://developer.chrome.com/extensions/enterprise_networkingAttributes",
-    "https://developer.chrome.com/extensions/enterprise_platformKeys",
-    "https://developer.chrome.com/extensions/event_pages",
-    "https://developer.chrome.com/extensions/events",
-    "https://developer.chrome.com/extensions/experimental",
-    "https://developer.chrome.com/extensions/experimental_browsingData",
-    "https://developer.chrome.com/extensions/experimental_contentSettings",
-    "https://developer.chrome.com/extensions/experimental_contextMenus",
-    "https://developer.chrome.com/extensions/experimental_cookies",
-    "https://developer.chrome.com/extensions/experimental_devtools",
-    "https://developer.chrome.com/extensions/experimental_devtools_inspectedWindow",
-    "https://developer.chrome.com/extensions/experimental_devtools_network",
-    "https://developer.chrome.com/extensions/experimental_devtools_panels",
-    "https://developer.chrome.com/extensions/experimental_devtools_resources",
-    "https://developer.chrome.com/extensions/experimental_history",
-    "https://developer.chrome.com/extensions/experimental_identity",
-    "https://developer.chrome.com/extensions/experimental_inputUI",
-    "https://developer.chrome.com/extensions/experimental_privacy",
-    "https://developer.chrome.com/extensions/experimental_storage",
-    "https://developer.chrome.com/extensions/experimental_webInspector",
-    "https://developer.chrome.com/extensions/experimental_webInspector_audits",
-    "https://developer.chrome.com/extensions/experimental_webInspector_panels",
-    "https://developer.chrome.com/extensions/experimental_webInspector_resources",
-    "https://developer.chrome.com/extensions/experimental_webRequest",
-    "https://developer.chrome.com/extensions/extension",
-    "https://developer.chrome.com/extensions/extensionTypes",
-    "https://developer.chrome.com/extensions/external_extensions",
-    "https://developer.chrome.com/extensions/faq",
-    "https://developer.chrome.com/extensions/fileBrowserHandler",
-    "https://developer.chrome.com/extensions/fileSystemProvider",
-    "https://developer.chrome.com/extensions/fontSettings",
-    "https://developer.chrome.com/extensions/gcm",
-    "https://developer.chrome.com/extensions/getstarted",
-    "https://developer.chrome.com/extensions/history",
-    "https://developer.chrome.com/extensions/hosting",
-    "https://developer.chrome.com/extensions/hosting_changes",
-    "https://developer.chrome.com/extensions/i18n",
-    "https://developer.chrome.com/extensions/i18n-messages",
-    "https://developer.chrome.com/extensions/identity",
-    "https://developer.chrome.com/extensions/idle",
-    "https://developer.chrome.com/extensions/infobars",
-    "https://developer.chrome.com/extensions/inline_faq",
-    "https://developer.chrome.com/extensions/input_ime",
-    "https://developer.chrome.com/extensions/instanceID",
-    "https://developer.chrome.com/extensions/linux_hosting",
-    "https://developer.chrome.com/extensions/location",
-    "https://developer.chrome.com/extensions/loginState",
-    "https://developer.chrome.com/extensions/management",
-    "https://developer.chrome.com/extensions/manifest",
-    "https://developer.chrome.com/extensions/manifest/default_locale",
-    "https://developer.chrome.com/extensions/manifest/description",
-    "https://developer.chrome.com/extensions/manifest/event_rules",
-    "https://developer.chrome.com/extensions/manifest/externally_connectable",
-    "https://developer.chrome.com/extensions/manifest/homepage_url",
-    "https://developer.chrome.com/extensions/manifest/icons",
-    "https://developer.chrome.com/extensions/manifest/incognito",
-    "https://developer.chrome.com/extensions/manifest/key",
-    "https://developer.chrome.com/extensions/manifest/manifest_version",
-    "https://developer.chrome.com/extensions/manifest/minimum_chrome_version",
-    "https://developer.chrome.com/extensions/manifest/nacl_modules",
-    "https://developer.chrome.com/extensions/manifest/name",
-    "https://developer.chrome.com/extensions/manifest/offline_enabled",
-    "https://developer.chrome.com/extensions/manifest/requirements",
-    "https://developer.chrome.com/extensions/manifest/sandbox",
-    "https://developer.chrome.com/extensions/manifest/storage",
-    "https://developer.chrome.com/extensions/manifest/version",
-    "https://developer.chrome.com/extensions/manifest/web_accessible_resources",
-    "https://developer.chrome.com/extensions/manifestVersion",
-    "https://developer.chrome.com/extensions/match_patterns",
-    "https://developer.chrome.com/extensions/messaging",
-    "https://developer.chrome.com/extensions/migrating_to_manifest_v3",
-    "https://developer.chrome.com/extensions/migrating_to_service_workers",
-    "https://developer.chrome.com/extensions/nativeMessaging",
-    "https://developer.chrome.com/extensions/networking_config",
-    "https://developer.chrome.com/extensions/notifications",
-    "https://developer.chrome.com/extensions/npapi",
-    "https://developer.chrome.com/extensions/omnibox",
-    "https://developer.chrome.com/extensions/options",
-    "https://developer.chrome.com/extensions/override",
-    "https://developer.chrome.com/extensions/overview",
-    "https://developer.chrome.com/extensions/pageAction",
-    "https://developer.chrome.com/extensions/pageCapture",
-    "https://developer.chrome.com/extensions/performance",
-    "https://developer.chrome.com/extensions/permission_warnings",
-    "https://developer.chrome.com/extensions/permissions",
-    "https://developer.chrome.com/extensions/platformKeys",
-    "https://developer.chrome.com/extensions/power",
-    "https://developer.chrome.com/extensions/printerProvider",
-    "https://developer.chrome.com/extensions/printing",
-    "https://developer.chrome.com/extensions/printingMetrics",
-    "https://developer.chrome.com/extensions/privacy",
-    "https://developer.chrome.com/extensions/private_apis",
-    "https://developer.chrome.com/extensions/processes",
-    "https://developer.chrome.com/extensions/proxy",
-    "https://developer.chrome.com/extensions/richNotifications",
-    "https://developer.chrome.com/extensions/runtime",
-    "https://developer.chrome.com/extensions/runtime_host_permissions",
-    "https://developer.chrome.com/extensions/sandboxingEval",
-    "https://developer.chrome.com/extensions/security",
-    "https://developer.chrome.com/extensions/sessions",
-    "https://developer.chrome.com/extensions/settings_override",
-    "https://developer.chrome.com/extensions/shared_modules",
-    "https://developer.chrome.com/extensions/signedInDevices",
-    "https://developer.chrome.com/extensions/single_purpose",
-    "https://developer.chrome.com/extensions/storage",
-    "https://developer.chrome.com/extensions/system_cpu",
-    "https://developer.chrome.com/extensions/system_memory",
-    "https://developer.chrome.com/extensions/system_storage",
-    "https://developer.chrome.com/extensions/tabCapture",
-    "https://developer.chrome.com/extensions/tabs",
-    "https://developer.chrome.com/extensions/themes",
-    "https://developer.chrome.com/extensions/topSites",
-    "https://developer.chrome.com/extensions/tts",
-    "https://developer.chrome.com/extensions/ttsEngine",
-    "https://developer.chrome.com/extensions/tut_analytics",
-    "https://developer.chrome.com/extensions/tut_debugging",
-    "https://developer.chrome.com/extensions/tut_migration_to_manifest_v2",
-    "https://developer.chrome.com/extensions/tut_oauth",
-    "https://developer.chrome.com/extensions/tutorials",
-    "https://developer.chrome.com/extensions/types",
-    "https://developer.chrome.com/extensions/user_interface",
-    "https://developer.chrome.com/extensions/user_privacy",
-    "https://developer.chrome.com/extensions/vpnProvider",
-    "https://developer.chrome.com/extensions/wallpaper",
-    "https://developer.chrome.com/extensions/webNavigation",
-    "https://developer.chrome.com/extensions/webRequest",
-    "https://developer.chrome.com/extensions/webstore",
-    "https://developer.chrome.com/extensions/windows",
-    "https://developer.chrome.com/extensions/xhr"
-  ],
+  "ok": [],
   "redirects": [
     {
-      "from": "https://developer.chrome.com/extensions/",
-      "to": "https://developer.chrome.com/extensions"
+      "from": "http://localhost:8080/extensions",
+      "to": "http://localhost:8080/docs/extensions/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/about_apps",
-      "to": "https://developer.chrome.com/apps/about_apps"
+      "from": "http://localhost:8080/extensions/",
+      "to": "http://localhost:8080/docs/extensions/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/analytics",
-      "to": "https://developer.chrome.com/apps/analytics"
+      "from": "http://localhost:8080/extensions/a11y",
+      "to": "http://localhost:8080/docs/extensions/a11y/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/angular_framework",
-      "to": "https://developer.chrome.com/apps/angular_framework"
+      "from": "http://localhost:8080/extensions/analytics",
+      "to": "http://localhost:8080/docs/apps/analytics/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_architecture",
-      "to": "https://developer.chrome.com/apps/app_architecture"
+      "from": "http://localhost:8080/extensions/angular_framework",
+      "to": "http://localhost:8080/docs/apps/angular_framework/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_bluetooth",
-      "to": "https://developer.chrome.com/apps/app_bluetooth"
+      "from": "http://localhost:8080/extensions/api_",
+      "to": "http://localhost:8080/docs/extensions/reference/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_codelab_alarms",
-      "to": "https://developer.chrome.com/apps/app_codelab_alarms"
+      "from": "http://localhost:8080/extensions/api_index",
+      "to": "http://localhost:8080/docs/extensions/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_codelab_basics",
-      "to": "https://developer.chrome.com/apps/app_codelab_basics"
+      "from": "http://localhost:8080/extensions/api_other",
+      "to": "http://localhost:8080/docs/extensions/api_other/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_codelab_filesystem",
-      "to": "https://developer.chrome.com/apps/app_codelab_filesystem"
+      "from": "http://localhost:8080/extensions/app_architecture",
+      "to": "http://localhost:8080/docs/apps/app_architecture/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_codelab_images",
-      "to": "https://developer.chrome.com/apps/app_codelab_images"
+      "from": "http://localhost:8080/extensions/app_bluetooth",
+      "to": "http://localhost:8080/docs/apps/app_bluetooth/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_codelab_import_todomvc",
-      "to": "https://developer.chrome.com/apps/app_codelab_import_todomvc"
+      "from": "http://localhost:8080/extensions/app_codelab_alarms",
+      "to": "http://localhost:8080/docs/apps/app_codelab_alarms/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_codelab_intro",
-      "to": "https://developer.chrome.com/apps/app_codelab_intro"
+      "from": "http://localhost:8080/extensions/app_codelab_basics",
+      "to": "http://localhost:8080/docs/apps/app_codelab_basics/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_codelab_mobile",
-      "to": "https://developer.chrome.com/apps/app_codelab_mobile"
+      "from": "http://localhost:8080/extensions/app_codelab_filesystem",
+      "to": "http://localhost:8080/docs/apps/app_codelab_filesystem/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_codelab_publish",
-      "to": "https://developer.chrome.com/apps/app_codelab_publish"
+      "from": "http://localhost:8080/extensions/app_codelab_images",
+      "to": "http://localhost:8080/docs/apps/app_codelab_images/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_codelab_webview",
-      "to": "https://developer.chrome.com/apps/app_codelab_webview"
+      "from": "http://localhost:8080/extensions/app_codelab_import_todomvc",
+      "to": "http://localhost:8080/docs/apps/app_codelab_import_todomvc/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_deprecated",
-      "to": "https://developer.chrome.com/apps/app_deprecated"
+      "from": "http://localhost:8080/extensions/app_codelab_intro",
+      "to": "http://localhost:8080/docs/apps/app_codelab_intro/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_external",
-      "to": "https://developer.chrome.com/apps/app_external"
+      "from": "http://localhost:8080/extensions/app_codelab_publish",
+      "to": "http://localhost:8080/docs/apps/app_codelab_publish/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_frameworks",
-      "to": "https://developer.chrome.com/apps/app_frameworks"
+      "from": "http://localhost:8080/extensions/app_codelab_webview",
+      "to": "http://localhost:8080/docs/apps/app_codelab_webview/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_intents",
-      "to": "https://developer.chrome.com/apps/app_intents"
+      "from": "http://localhost:8080/extensions/app_csp",
+      "to": "http://localhost:8080/docs/apps/contentSecurityPolicy/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_lifecycle",
-      "to": "https://developer.chrome.com/apps/app_lifecycle"
+      "from": "http://localhost:8080/extensions/app_deprecated",
+      "to": "http://localhost:8080/docs/apps/app_deprecated/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_network",
-      "to": "https://developer.chrome.com/apps/app_network"
+      "from": "http://localhost:8080/extensions/app_external",
+      "to": "http://localhost:8080/docs/apps/app_external/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_serial",
-      "to": "https://developer.chrome.com/apps/app_serial"
+      "from": "http://localhost:8080/extensions/app_frameworks",
+      "to": "http://localhost:8080/docs/apps/app_frameworks/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_storage",
-      "to": "https://developer.chrome.com/apps/app_storage"
+      "from": "http://localhost:8080/extensions/app_lifecycle",
+      "to": "http://localhost:8080/docs/apps/app_lifecycle/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/app_usb",
-      "to": "https://developer.chrome.com/apps/app_usb"
+      "from": "http://localhost:8080/extensions/app_manifestVersion",
+      "to": "http://localhost:8080/docs/apps/manifest/version/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/arc_in_app_payments",
+      "from": "http://localhost:8080/extensions/app_network",
+      "to": "http://localhost:8080/docs/apps/app_network/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/app_serial",
+      "to": "http://localhost:8080/docs/apps/app_serial/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/app_storage",
+      "to": "http://localhost:8080/docs/apps/app_storage/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/app_usb",
+      "to": "http://localhost:8080/docs/apps/app_usb/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/apps",
+      "to": "http://localhost:8080/docs/extensions/apps/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/arc_in_app_payments",
       "to": "https://developer.android.com/chrome-os/intro"
     },
     {
-      "from": "https://developer.chrome.com/extensions/arc_playservices",
+      "from": "http://localhost:8080/extensions/arc_playservices",
       "to": "https://developer.android.com/chrome-os/intro.html"
     },
     {
-      "from": "https://developer.chrome.com/extensions/autoupdate",
-      "to": "https://developer.chrome.com/extensions/hosting"
+      "from": "http://localhost:8080/extensions/autoupdate",
+      "to": "http://localhost:8080/docs/extensions/hosting/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/chrome_apps_on_mobile",
-      "to": "https://developer.chrome.com/apps/chrome_apps_on_mobile"
+      "from": "http://localhost:8080/extensions/background_migration",
+      "to": "http://localhost:8080/docs/extensions/background_migration/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/crx",
-      "to": "https://developer.chrome.com/extensions/hosting"
+      "from": "http://localhost:8080/extensions/background_pages",
+      "to": "http://localhost:8080/docs/extensions/background_pages/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/develop_apps",
-      "to": "https://developer.chrome.com/apps/develop_apps"
+      "from": "http://localhost:8080/extensions/chrome_apps_on_mobile",
+      "to": "http://localhost:8080/docs/apps/chrome_apps_on_mobile/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/devtools.inspectedWindow",
-      "to": "https://developer.chrome.com/extensions/devtools_inspectedWindow"
+      "from": "http://localhost:8080/extensions/content_scripts",
+      "to": "http://localhost:8080/docs/extensions/content_scripts/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/devtools.network",
-      "to": "https://developer.chrome.com/extensions/devtools_network"
+      "from": "http://localhost:8080/extensions/crx",
+      "to": "http://localhost:8080/docs/extensions/hosting/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/devtools.panels",
-      "to": "https://developer.chrome.com/extensions/devtools_panels"
+      "from": "http://localhost:8080/extensions/declare_permissions",
+      "to": "http://localhost:8080/docs/extensions/declare_permissions/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/enterprise.deviceAttributes",
-      "to": "https://developer.chrome.com/extensions/enterprise_deviceAttributes"
+      "from": "http://localhost:8080/extensions/desktop_notifications",
+      "to": "http://localhost:8080/docs/extensions/desktop_notifications/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/enterprise.hardwarePlatform",
-      "to": "https://developer.chrome.com/extensions/enterprise_hardwarePlatform"
+      "from": "http://localhost:8080/extensions/devguide",
+      "to": "http://localhost:8080/docs/extensions/devguide/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/enterprise.networkingAttributes",
-      "to": "https://developer.chrome.com/extensions/enterprise_networkingAttributes"
+      "from": "http://localhost:8080/extensions/devtools",
+      "to": "http://localhost:8080/docs/extensions/devtools/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/enterprise.platformKeys",
-      "to": "https://developer.chrome.com/extensions/enterprise_platformKeys"
+      "from": "http://localhost:8080/extensions/experimental",
+      "to": "http://localhost:8080/docs/extensions/experimental/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/extensions/declare_permissions",
-      "to": "https://developer.chrome.com/extensions/declare_permissions"
+      "from": "http://localhost:8080/extensions/experimental_devtools",
+      "to": "http://localhost:8080/docs/extensions/experimental_devtools/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/extensions/manifest",
-      "to": "https://developer.chrome.com/extensions/manifest"
+      "from": "http://localhost:8080/extensions/experimental_inputUI",
+      "to": "http://localhost:8080/docs/extensions/experimental_inputUI/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/extensions/match_patterns",
-      "to": "https://developer.chrome.com/extensions/match_patterns"
+      "from": "http://localhost:8080/extensions/extensions/declare_permissions",
+      "to": "http://localhost:8080/docs/extensions/declare_permissions/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/extensions/messaging",
-      "to": "https://developer.chrome.com/extensions/messaging"
+      "from": "http://localhost:8080/extensions/extensions/manifest",
+      "to": "http://localhost:8080/docs/extensions/manifest/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/extensions/options",
-      "to": "https://developer.chrome.com/extensions/options"
+      "from": "http://localhost:8080/extensions/extensions/match_patterns",
+      "to": "http://localhost:8080/docs/extensions/match_patterns/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/extensions/override",
-      "to": "https://developer.chrome.com/extensions/override"
+      "from": "http://localhost:8080/extensions/extensions/messaging",
+      "to": "http://localhost:8080/docs/extensions/messaging/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/extensions/permission_warnings",
-      "to": "https://developer.chrome.com/extensions/permission_warnings"
+      "from": "http://localhost:8080/extensions/extensions/options",
+      "to": "http://localhost:8080/docs/extensions/options/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/extensions/runtime",
-      "to": "https://developer.chrome.com/extensions/runtime"
+      "from": "http://localhost:8080/extensions/extensions/override",
+      "to": "http://localhost:8080/docs/extensions/override/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/extensions/storage",
-      "to": "https://developer.chrome.com/extensions/storage"
+      "from": "http://localhost:8080/extensions/extensions/permission_warnings",
+      "to": "http://localhost:8080/docs/extensions/permission_warnings/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/extensions/tabs",
-      "to": "https://developer.chrome.com/extensions/tabs"
+      "from": "http://localhost:8080/extensions/external_extensions",
+      "to": "http://localhost:8080/docs/extensions/external_extensions/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/first_app",
-      "to": "https://developer.chrome.com/apps/first_app"
+      "from": "http://localhost:8080/extensions/faq",
+      "to": "http://localhost:8080/docs/extensions/faq/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/game_engines",
-      "to": "https://developer.chrome.com/apps/game_engines"
+      "from": "http://localhost:8080/extensions/first_app",
+      "to": "http://localhost:8080/docs/apps/first_app/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/getstarted_arc",
+      "from": "http://localhost:8080/extensions/game_engines",
+      "to": "http://localhost:8080/docs/apps/game_engines/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/getstarted",
+      "to": "http://localhost:8080/docs/extensions/getstarted/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/getstarted_arc",
       "to": "https://developer.android.com/chrome-os/intro.html"
     },
     {
-      "from": "https://developer.chrome.com/extensions/input.ime",
-      "to": "https://developer.chrome.com/extensions/input_ime"
+      "from": "http://localhost:8080/extensions/hosting",
+      "to": "http://localhost:8080/docs/extensions/hosting/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/manifest/file_system_provider",
-      "to": "https://developer.chrome.com/extensions/fileSystemProvider"
+      "from": "http://localhost:8080/extensions/hosting_changes",
+      "to": "http://localhost:8080/docs/extensions/hosting_changes/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/mdns",
-      "to": "https://developer.chrome.com/apps/mdns"
+      "from": "http://localhost:8080/extensions/i18n-messages",
+      "to": "http://localhost:8080/docs/extensions/i18n-messages/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/migration",
-      "to": "https://developer.chrome.com/apps/migration"
+      "from": "http://localhost:8080/extensions/inline_faq",
+      "to": "http://localhost:8080/docs/extensions/inline_faq/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/networking.config",
-      "to": "https://developer.chrome.com/extensions/networking_config"
+      "from": "http://localhost:8080/extensions/linux_hosting",
+      "to": "http://localhost:8080/docs/extensions/linux_hosting/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/offline_apps",
-      "to": "https://developer.chrome.com/apps/offline_apps"
+      "from": "http://localhost:8080/extensions/location",
+      "to": "http://localhost:8080/docs/extensions/location/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/offline_storage",
-      "to": "https://developer.chrome.com/apps/offline_storage"
+      "from": "http://localhost:8080/extensions/manifest",
+      "to": "http://localhost:8080/docs/extensions/manifest/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/omniBox",
-      "to": "https://developer.chrome.com/extensions/omnibox"
+      "from": "http://localhost:8080/extensions/manifest/default_locale",
+      "to": "http://localhost:8080/docs/extensions/manifest/default_locale/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/optionsV2",
-      "to": "https://developer.chrome.com/extensions/options"
+      "from": "http://localhost:8080/extensions/manifest/description",
+      "to": "http://localhost:8080/docs/extensions/manifest/description/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/packaging",
-      "to": "https://developer.chrome.com/extensions/hosting"
+      "from": "http://localhost:8080/extensions/manifest/event_rules",
+      "to": "http://localhost:8080/docs/extensions/manifest/event_rules/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/pillar",
-      "to": "https://developer.chrome.com/apps/pillar"
+      "from": "http://localhost:8080/extensions/manifest/externally_connectable",
+      "to": "http://localhost:8080/docs/extensions/manifest/externally_connectable/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/publish_app",
-      "to": "https://developer.chrome.com/apps/publish_app"
+      "from": "http://localhost:8080/extensions/manifest/homepage_url",
+      "to": "http://localhost:8080/docs/extensions/manifest/homepage_url/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/sencha_framework",
-      "to": "https://developer.chrome.com/apps/sencha_framework"
+      "from": "http://localhost:8080/extensions/manifest/icons",
+      "to": "http://localhost:8080/docs/extensions/manifest/icons/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/system.cpu",
-      "to": "https://developer.chrome.com/extensions/system_cpu"
+      "from": "http://localhost:8080/extensions/manifest/incognito",
+      "to": "http://localhost:8080/docs/extensions/manifest/incognito/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/system.display",
-      "to": "https://developer.chrome.com/apps/system_display"
+      "from": "http://localhost:8080/extensions/manifest/key",
+      "to": "http://localhost:8080/docs/extensions/manifest/key/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/system.memory",
-      "to": "https://developer.chrome.com/extensions/system_memory"
+      "from": "http://localhost:8080/extensions/manifest/manifest_version",
+      "to": "http://localhost:8080/docs/extensions/manifest/manifest_version/"
     },
     {
-      "from": "https://developer.chrome.com/extensions/system.storage",
-      "to": "https://developer.chrome.com/extensions/system_storage"
+      "from": "http://localhost:8080/extensions/manifest/minimum_chrome_version",
+      "to": "http://localhost:8080/docs/extensions/manifest/minimum_chrome_version/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/manifest/nacl_modules",
+      "to": "http://localhost:8080/docs/extensions/manifest/nacl_modules/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/manifest/name",
+      "to": "http://localhost:8080/docs/extensions/manifest/name/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/manifest/offline_enabled",
+      "to": "http://localhost:8080/docs/extensions/manifest/offline_enabled/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/manifest/requirements",
+      "to": "http://localhost:8080/docs/extensions/manifest/requirements/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/manifest/sandbox",
+      "to": "http://localhost:8080/docs/extensions/manifest/sandbox/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/manifest/storage",
+      "to": "http://localhost:8080/docs/extensions/manifest/storage/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/manifest/version",
+      "to": "http://localhost:8080/docs/extensions/manifest/version/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/manifest/web_accessible_resources",
+      "to": "http://localhost:8080/docs/extensions/manifest/web_accessible_resources/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/manifestVersion",
+      "to": "http://localhost:8080/docs/extensions/manifestVersion/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/match_patterns",
+      "to": "http://localhost:8080/docs/extensions/match_patterns/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/messaging",
+      "to": "http://localhost:8080/docs/extensions/messaging/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/migrating_to_manifest_v3",
+      "to": "http://localhost:8080/docs/extensions/migrating_to_manifest_v3/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/migrating_to_service_workers",
+      "to": "http://localhost:8080/docs/extensions/migrating_to_service_workers/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/offline_apps",
+      "to": "http://localhost:8080/docs/apps/offline_apps/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/offline_storage",
+      "to": "http://localhost:8080/docs/apps/offline_storage/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/options",
+      "to": "http://localhost:8080/docs/extensions/options/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/optionsV2",
+      "to": "http://localhost:8080/docs/extensions/options/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/override",
+      "to": "http://localhost:8080/docs/extensions/override/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/overview",
+      "to": "http://localhost:8080/docs/extensions/overview/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/packaging",
+      "to": "http://localhost:8080/docs/extensions/hosting/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/performance",
+      "to": "http://localhost:8080/docs/extensions/performance/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/permission_warnings",
+      "to": "http://localhost:8080/docs/extensions/permission_warnings/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/publish_app",
+      "to": "http://localhost:8080/docs/apps/publish_app/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/richNotifications",
+      "to": "http://localhost:8080/docs/extensions/richNotifications/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/runtime_host_permissions",
+      "to": "http://localhost:8080/docs/extensions/runtime_host_permissions/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/samples",
+      "to": "http://localhost:8080/docs/extensions/samples/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/sandboxingEval",
+      "to": "http://localhost:8080/docs/extensions/sandboxingEval/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/security",
+      "to": "http://localhost:8080/docs/extensions/security/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/sencha_framework",
+      "to": "http://localhost:8080/docs/apps/sencha_framework/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/settings_override",
+      "to": "http://localhost:8080/docs/extensions/settings_override/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/shared_modules",
+      "to": "http://localhost:8080/docs/extensions/shared_modules/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/single_purpose",
+      "to": "http://localhost:8080/docs/extensions/single_purpose/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/themes",
+      "to": "http://localhost:8080/docs/extensions/themes/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/tut_analytics",
+      "to": "http://localhost:8080/docs/extensions/tut_analytics/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/tut_debugging",
+      "to": "http://localhost:8080/docs/extensions/tut_debugging/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/tut_migration_to_manifest_v2",
+      "to": "http://localhost:8080/docs/extensions/tut_migration_to_manifest_v2/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/tut_oauth",
+      "to": "http://localhost:8080/docs/extensions/tut_oauth/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/user_interface",
+      "to": "http://localhost:8080/docs/extensions/user_interface/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/user_privacy",
+      "to": "http://localhost:8080/docs/extensions/user_privacy/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/webstore",
+      "to": "http://localhost:8080/docs/extensions/webstore/"
+    },
+    {
+      "from": "http://localhost:8080/extensions/xhr",
+      "to": "http://localhost:8080/docs/extensions/xhr/"
     }
   ],
   "errors": [
-    "https://developer.chrome.com/extensions/api_",
-    "https://developer.chrome.com/extensions/app_csp",
-    "https://developer.chrome.com/extensions/app_manifestVersion",
-    "https://developer.chrome.com/extensions/cloudMessaging",
-    "https://developer.chrome.com/extensions/declaratively",
-    "https://developer.chrome.com/extensions/displaySource",
-    "https://developer.chrome.com/extensions/dns",
-    "https://developer.chrome.com/extensions/experimental_devtools_console",
-    "https://developer.chrome.com/extensions/extensions_index",
-    "https://developer.chrome.com/extensions/extensions/api_",
-    "https://developer.chrome.com/extensions/idltest",
-    "https://developer.chrome.com/extensions/inform_users",
-    "https://developer.chrome.com/extensions/login",
-    "https://developer.chrome.com/extensions/loginScreenStorage"
+    "http://localhost:8080/extensions/about_apps",
+    "http://localhost:8080/extensions/accessibilityFeatures",
+    "http://localhost:8080/extensions/activeTab",
+    "http://localhost:8080/extensions/alarms",
+    "http://localhost:8080/extensions/app_codelab_mobile",
+    "http://localhost:8080/extensions/app_identity",
+    "http://localhost:8080/extensions/app_intents",
+    "http://localhost:8080/extensions/bookmarks",
+    "http://localhost:8080/extensions/browserAction",
+    "http://localhost:8080/extensions/browsingData",
+    "http://localhost:8080/extensions/certificateProvider",
+    "http://localhost:8080/extensions/cloudMessaging",
+    "http://localhost:8080/extensions/commands",
+    "http://localhost:8080/extensions/contentSecurityPolicy",
+    "http://localhost:8080/extensions/contentSettings",
+    "http://localhost:8080/extensions/contextMenus",
+    "http://localhost:8080/extensions/cookies",
+    "http://localhost:8080/extensions/debugger",
+    "http://localhost:8080/extensions/declarativeContent",
+    "http://localhost:8080/extensions/declaratively",
+    "http://localhost:8080/extensions/declarativeNetRequest",
+    "http://localhost:8080/extensions/declarativeWebRequest",
+    "http://localhost:8080/extensions/desktopCapture",
+    "http://localhost:8080/extensions/develop_apps",
+    "http://localhost:8080/extensions/devtools_inspectedWindow",
+    "http://localhost:8080/extensions/devtools_network",
+    "http://localhost:8080/extensions/devtools_panels",
+    "http://localhost:8080/extensions/devtools.inspectedWindow",
+    "http://localhost:8080/extensions/devtools.network",
+    "http://localhost:8080/extensions/devtools.panels",
+    "http://localhost:8080/extensions/displaySource",
+    "http://localhost:8080/extensions/dns",
+    "http://localhost:8080/extensions/documentScan",
+    "http://localhost:8080/extensions/downloads",
+    "http://localhost:8080/extensions/enterprise_deviceAttributes",
+    "http://localhost:8080/extensions/enterprise_hardwarePlatform",
+    "http://localhost:8080/extensions/enterprise_networkingAttributes",
+    "http://localhost:8080/extensions/enterprise_platformKeys",
+    "http://localhost:8080/extensions/enterprise.deviceAttributes",
+    "http://localhost:8080/extensions/enterprise.hardwarePlatform",
+    "http://localhost:8080/extensions/enterprise.networkingAttributes",
+    "http://localhost:8080/extensions/enterprise.platformKeys",
+    "http://localhost:8080/extensions/event_pages",
+    "http://localhost:8080/extensions/events",
+    "http://localhost:8080/extensions/experimental_browsingData",
+    "http://localhost:8080/extensions/experimental_contentSettings",
+    "http://localhost:8080/extensions/experimental_contextMenus",
+    "http://localhost:8080/extensions/experimental_cookies",
+    "http://localhost:8080/extensions/experimental_devtools_console",
+    "http://localhost:8080/extensions/experimental_devtools_inspectedWindow",
+    "http://localhost:8080/extensions/experimental_devtools_network",
+    "http://localhost:8080/extensions/experimental_devtools_panels",
+    "http://localhost:8080/extensions/experimental_devtools_resources",
+    "http://localhost:8080/extensions/experimental_history",
+    "http://localhost:8080/extensions/experimental_identity",
+    "http://localhost:8080/extensions/experimental_privacy",
+    "http://localhost:8080/extensions/experimental_storage",
+    "http://localhost:8080/extensions/experimental_webInspector",
+    "http://localhost:8080/extensions/experimental_webInspector_audits",
+    "http://localhost:8080/extensions/experimental_webInspector_panels",
+    "http://localhost:8080/extensions/experimental_webInspector_resources",
+    "http://localhost:8080/extensions/experimental_webRequest",
+    "http://localhost:8080/extensions/extension",
+    "http://localhost:8080/extensions/extensions_index",
+    "http://localhost:8080/extensions/extensions/api_",
+    "http://localhost:8080/extensions/extensions/runtime",
+    "http://localhost:8080/extensions/extensions/storage",
+    "http://localhost:8080/extensions/extensions/tabs",
+    "http://localhost:8080/extensions/extensionTypes",
+    "http://localhost:8080/extensions/fileBrowserHandler",
+    "http://localhost:8080/extensions/fileSystemProvider",
+    "http://localhost:8080/extensions/fontSettings",
+    "http://localhost:8080/extensions/gcm",
+    "http://localhost:8080/extensions/history",
+    "http://localhost:8080/extensions/i18n",
+    "http://localhost:8080/extensions/identity",
+    "http://localhost:8080/extensions/idle",
+    "http://localhost:8080/extensions/idltest",
+    "http://localhost:8080/extensions/infobars",
+    "http://localhost:8080/extensions/inform_users",
+    "http://localhost:8080/extensions/input_ime",
+    "http://localhost:8080/extensions/input.ime",
+    "http://localhost:8080/extensions/instanceID",
+    "http://localhost:8080/extensions/login",
+    "http://localhost:8080/extensions/loginScreenStorage",
+    "http://localhost:8080/extensions/loginState",
+    "http://localhost:8080/extensions/management",
+    "http://localhost:8080/extensions/manifest/file_system_provider",
+    "http://localhost:8080/extensions/mdns",
+    "http://localhost:8080/extensions/migration",
+    "http://localhost:8080/extensions/nativeMessaging",
+    "http://localhost:8080/extensions/networking_config",
+    "http://localhost:8080/extensions/networking.config",
+    "http://localhost:8080/extensions/notifications",
+    "http://localhost:8080/extensions/npapi",
+    "http://localhost:8080/extensions/omniBox",
+    "http://localhost:8080/extensions/omnibox",
+    "http://localhost:8080/extensions/pageAction",
+    "http://localhost:8080/extensions/pageCapture",
+    "http://localhost:8080/extensions/permissions",
+    "http://localhost:8080/extensions/pillar",
+    "http://localhost:8080/extensions/platformKeys",
+    "http://localhost:8080/extensions/power",
+    "http://localhost:8080/extensions/printerProvider",
+    "http://localhost:8080/extensions/printing",
+    "http://localhost:8080/extensions/printingMetrics",
+    "http://localhost:8080/extensions/privacy",
+    "http://localhost:8080/extensions/private_apis",
+    "http://localhost:8080/extensions/processes",
+    "http://localhost:8080/extensions/proxy",
+    "http://localhost:8080/extensions/runtime",
+    "http://localhost:8080/extensions/sessions",
+    "http://localhost:8080/extensions/signedInDevices",
+    "http://localhost:8080/extensions/storage",
+    "http://localhost:8080/extensions/system_cpu",
+    "http://localhost:8080/extensions/system_memory",
+    "http://localhost:8080/extensions/system_storage",
+    "http://localhost:8080/extensions/system.cpu",
+    "http://localhost:8080/extensions/system.display",
+    "http://localhost:8080/extensions/system.memory",
+    "http://localhost:8080/extensions/system.storage",
+    "http://localhost:8080/extensions/tabCapture",
+    "http://localhost:8080/extensions/tabs",
+    "http://localhost:8080/extensions/topSites",
+    "http://localhost:8080/extensions/tts",
+    "http://localhost:8080/extensions/ttsEngine",
+    "http://localhost:8080/extensions/tutorials",
+    "http://localhost:8080/extensions/types",
+    "http://localhost:8080/extensions/vpnProvider",
+    "http://localhost:8080/extensions/wallpaper",
+    "http://localhost:8080/extensions/webNavigation",
+    "http://localhost:8080/extensions/webRequest",
+    "http://localhost:8080/extensions/whats_new",
+    "http://localhost:8080/extensions/windows"
   ]
 }

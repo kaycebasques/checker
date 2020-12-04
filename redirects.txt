@@ -1,74 +1,89 @@
-- from: /extensions/
-  to: /extensions
+- from: /extensions
+  to: /docs/extensions/
 
-- from: /extensions/about_apps
-  to: /apps/about_apps
+- from: /extensions/
+  to: /docs/extensions/
+
+- from: /extensions/a11y
+  to: /docs/extensions/a11y/
 
 - from: /extensions/analytics
-  to: /apps/analytics
+  to: /docs/apps/analytics/
 
 - from: /extensions/angular_framework
-  to: /apps/angular_framework
+  to: /docs/apps/angular_framework/
+
+- from: /extensions/api_
+  to: /docs/extensions/reference/
+
+- from: /extensions/api_index
+  to: /docs/extensions/
+
+- from: /extensions/api_other
+  to: /docs/extensions/api_other/
 
 - from: /extensions/app_architecture
-  to: /apps/app_architecture
+  to: /docs/apps/app_architecture/
 
 - from: /extensions/app_bluetooth
-  to: /apps/app_bluetooth
+  to: /docs/apps/app_bluetooth/
 
 - from: /extensions/app_codelab_alarms
-  to: /apps/app_codelab_alarms
+  to: /docs/apps/app_codelab_alarms/
 
 - from: /extensions/app_codelab_basics
-  to: /apps/app_codelab_basics
+  to: /docs/apps/app_codelab_basics/
 
 - from: /extensions/app_codelab_filesystem
-  to: /apps/app_codelab_filesystem
+  to: /docs/apps/app_codelab_filesystem/
 
 - from: /extensions/app_codelab_images
-  to: /apps/app_codelab_images
+  to: /docs/apps/app_codelab_images/
 
 - from: /extensions/app_codelab_import_todomvc
-  to: /apps/app_codelab_import_todomvc
+  to: /docs/apps/app_codelab_import_todomvc/
 
 - from: /extensions/app_codelab_intro
-  to: /apps/app_codelab_intro
-
-- from: /extensions/app_codelab_mobile
-  to: /apps/app_codelab_mobile
+  to: /docs/apps/app_codelab_intro/
 
 - from: /extensions/app_codelab_publish
-  to: /apps/app_codelab_publish
+  to: /docs/apps/app_codelab_publish/
 
 - from: /extensions/app_codelab_webview
-  to: /apps/app_codelab_webview
+  to: /docs/apps/app_codelab_webview/
+
+- from: /extensions/app_csp
+  to: /docs/apps/contentSecurityPolicy/
 
 - from: /extensions/app_deprecated
-  to: /apps/app_deprecated
+  to: /docs/apps/app_deprecated/
 
 - from: /extensions/app_external
-  to: /apps/app_external
+  to: /docs/apps/app_external/
 
 - from: /extensions/app_frameworks
-  to: /apps/app_frameworks
-
-- from: /extensions/app_intents
-  to: /apps/app_intents
+  to: /docs/apps/app_frameworks/
 
 - from: /extensions/app_lifecycle
-  to: /apps/app_lifecycle
+  to: /docs/apps/app_lifecycle/
+
+- from: /extensions/app_manifestVersion
+  to: /docs/apps/manifest/version/
 
 - from: /extensions/app_network
-  to: /apps/app_network
+  to: /docs/apps/app_network/
 
 - from: /extensions/app_serial
-  to: /apps/app_serial
+  to: /docs/apps/app_serial/
 
 - from: /extensions/app_storage
-  to: /apps/app_storage
+  to: /docs/apps/app_storage/
 
 - from: /extensions/app_usb
-  to: /apps/app_usb
+  to: /docs/apps/app_usb/
+
+- from: /extensions/apps
+  to: /docs/extensions/apps/
 
 - from: /extensions/arc_in_app_payments
   to: https://developer.android.com/chrome-os/intro
@@ -77,141 +92,345 @@
   to: https://developer.android.com/chrome-os/intro.html
 
 - from: /extensions/autoupdate
-  to: /extensions/hosting
+  to: /docs/extensions/hosting/
+
+- from: /extensions/background_migration
+  to: /docs/extensions/background_migration/
+
+- from: /extensions/background_pages
+  to: /docs/extensions/background_pages/
 
 - from: /extensions/chrome_apps_on_mobile
-  to: /apps/chrome_apps_on_mobile
+  to: /docs/apps/chrome_apps_on_mobile/
+
+- from: /extensions/content_scripts
+  to: /docs/extensions/content_scripts/
 
 - from: /extensions/crx
-  to: /extensions/hosting
+  to: /docs/extensions/hosting/
 
-- from: /extensions/develop_apps
-  to: /apps/develop_apps
+- from: /extensions/declare_permissions
+  to: /docs/extensions/declare_permissions/
 
-- from: /extensions/devtools.inspectedWindow
-  to: /extensions/devtools_inspectedWindow
+- from: /extensions/desktop_notifications
+  to: /docs/extensions/desktop_notifications/
 
-- from: /extensions/devtools.network
-  to: /extensions/devtools_network
+- from: /extensions/devguide
+  to: /docs/extensions/devguide/
 
-- from: /extensions/devtools.panels
-  to: /extensions/devtools_panels
+- from: /extensions/devtools
+  to: /docs/extensions/devtools/
 
-- from: /extensions/enterprise.deviceAttributes
-  to: /extensions/enterprise_deviceAttributes
+- from: /extensions/experimental
+  to: /docs/extensions/experimental/
 
-- from: /extensions/enterprise.hardwarePlatform
-  to: /extensions/enterprise_hardwarePlatform
+- from: /extensions/experimental_devtools
+  to: /docs/extensions/experimental_devtools/
 
-- from: /extensions/enterprise.networkingAttributes
-  to: /extensions/enterprise_networkingAttributes
-
-- from: /extensions/enterprise.platformKeys
-  to: /extensions/enterprise_platformKeys
+- from: /extensions/experimental_inputUI
+  to: /docs/extensions/experimental_inputUI/
 
 - from: /extensions/extensions/declare_permissions
-  to: /extensions/declare_permissions
+  to: /docs/extensions/declare_permissions/
 
 - from: /extensions/extensions/manifest
-  to: /extensions/manifest
+  to: /docs/extensions/manifest/
 
 - from: /extensions/extensions/match_patterns
-  to: /extensions/match_patterns
+  to: /docs/extensions/match_patterns/
 
 - from: /extensions/extensions/messaging
-  to: /extensions/messaging
+  to: /docs/extensions/messaging/
 
 - from: /extensions/extensions/options
-  to: /extensions/options
+  to: /docs/extensions/options/
 
 - from: /extensions/extensions/override
-  to: /extensions/override
+  to: /docs/extensions/override/
 
 - from: /extensions/extensions/permission_warnings
-  to: /extensions/permission_warnings
+  to: /docs/extensions/permission_warnings/
 
-- from: /extensions/extensions/runtime
-  to: /extensions/runtime
+- from: /extensions/external_extensions
+  to: /docs/extensions/external_extensions/
 
-- from: /extensions/extensions/storage
-  to: /extensions/storage
-
-- from: /extensions/extensions/tabs
-  to: /extensions/tabs
+- from: /extensions/faq
+  to: /docs/extensions/faq/
 
 - from: /extensions/first_app
-  to: /apps/first_app
+  to: /docs/apps/first_app/
 
 - from: /extensions/game_engines
-  to: /apps/game_engines
+  to: /docs/apps/game_engines/
+
+- from: /extensions/getstarted
+  to: /docs/extensions/getstarted/
 
 - from: /extensions/getstarted_arc
   to: https://developer.android.com/chrome-os/intro.html
 
-- from: /extensions/input.ime
-  to: /extensions/input_ime
+- from: /extensions/hosting
+  to: /docs/extensions/hosting/
 
-- from: /extensions/manifest/file_system_provider
-  to: /extensions/fileSystemProvider
+- from: /extensions/hosting_changes
+  to: /docs/extensions/hosting_changes/
 
-- from: /extensions/mdns
-  to: /apps/mdns
+- from: /extensions/i18n-messages
+  to: /docs/extensions/i18n-messages/
 
-- from: /extensions/migration
-  to: /apps/migration
+- from: /extensions/inline_faq
+  to: /docs/extensions/inline_faq/
 
-- from: /extensions/networking.config
-  to: /extensions/networking_config
+- from: /extensions/linux_hosting
+  to: /docs/extensions/linux_hosting/
+
+- from: /extensions/location
+  to: /docs/extensions/location/
+
+- from: /extensions/manifest
+  to: /docs/extensions/manifest/
+
+- from: /extensions/manifest/default_locale
+  to: /docs/extensions/manifest/default_locale/
+
+- from: /extensions/manifest/description
+  to: /docs/extensions/manifest/description/
+
+- from: /extensions/manifest/event_rules
+  to: /docs/extensions/manifest/event_rules/
+
+- from: /extensions/manifest/externally_connectable
+  to: /docs/extensions/manifest/externally_connectable/
+
+- from: /extensions/manifest/homepage_url
+  to: /docs/extensions/manifest/homepage_url/
+
+- from: /extensions/manifest/icons
+  to: /docs/extensions/manifest/icons/
+
+- from: /extensions/manifest/incognito
+  to: /docs/extensions/manifest/incognito/
+
+- from: /extensions/manifest/key
+  to: /docs/extensions/manifest/key/
+
+- from: /extensions/manifest/manifest_version
+  to: /docs/extensions/manifest/manifest_version/
+
+- from: /extensions/manifest/minimum_chrome_version
+  to: /docs/extensions/manifest/minimum_chrome_version/
+
+- from: /extensions/manifest/nacl_modules
+  to: /docs/extensions/manifest/nacl_modules/
+
+- from: /extensions/manifest/name
+  to: /docs/extensions/manifest/name/
+
+- from: /extensions/manifest/offline_enabled
+  to: /docs/extensions/manifest/offline_enabled/
+
+- from: /extensions/manifest/requirements
+  to: /docs/extensions/manifest/requirements/
+
+- from: /extensions/manifest/sandbox
+  to: /docs/extensions/manifest/sandbox/
+
+- from: /extensions/manifest/storage
+  to: /docs/extensions/manifest/storage/
+
+- from: /extensions/manifest/version
+  to: /docs/extensions/manifest/version/
+
+- from: /extensions/manifest/web_accessible_resources
+  to: /docs/extensions/manifest/web_accessible_resources/
+
+- from: /extensions/manifestVersion
+  to: /docs/extensions/manifestVersion/
+
+- from: /extensions/match_patterns
+  to: /docs/extensions/match_patterns/
+
+- from: /extensions/messaging
+  to: /docs/extensions/messaging/
+
+- from: /extensions/migrating_to_manifest_v3
+  to: /docs/extensions/migrating_to_manifest_v3/
+
+- from: /extensions/migrating_to_service_workers
+  to: /docs/extensions/migrating_to_service_workers/
 
 - from: /extensions/offline_apps
-  to: /apps/offline_apps
+  to: /docs/apps/offline_apps/
 
 - from: /extensions/offline_storage
-  to: /apps/offline_storage
+  to: /docs/apps/offline_storage/
 
-- from: /extensions/omniBox
-  to: /extensions/omnibox
+- from: /extensions/options
+  to: /docs/extensions/options/
 
 - from: /extensions/optionsV2
-  to: /extensions/options
+  to: /docs/extensions/options/
+
+- from: /extensions/override
+  to: /docs/extensions/override/
+
+- from: /extensions/overview
+  to: /docs/extensions/overview/
 
 - from: /extensions/packaging
-  to: /extensions/hosting
+  to: /docs/extensions/hosting/
 
-- from: /extensions/pillar
-  to: /apps/pillar
+- from: /extensions/performance
+  to: /docs/extensions/performance/
+
+- from: /extensions/permission_warnings
+  to: /docs/extensions/permission_warnings/
 
 - from: /extensions/publish_app
-  to: /apps/publish_app
+  to: /docs/apps/publish_app/
+
+- from: /extensions/richNotifications
+  to: /docs/extensions/richNotifications/
+
+- from: /extensions/runtime_host_permissions
+  to: /docs/extensions/runtime_host_permissions/
+
+- from: /extensions/samples
+  to: /docs/extensions/samples/
+
+- from: /extensions/sandboxingEval
+  to: /docs/extensions/sandboxingEval/
+
+- from: /extensions/security
+  to: /docs/extensions/security/
 
 - from: /extensions/sencha_framework
-  to: /apps/sencha_framework
+  to: /docs/apps/sencha_framework/
 
-- from: /extensions/system.cpu
-  to: /extensions/system_cpu
+- from: /extensions/settings_override
+  to: /docs/extensions/settings_override/
 
-- from: /extensions/system.display
-  to: /apps/system_display
+- from: /extensions/shared_modules
+  to: /docs/extensions/shared_modules/
 
-- from: /extensions/system.memory
-  to: /extensions/system_memory
+- from: /extensions/single_purpose
+  to: /docs/extensions/single_purpose/
 
-- from: /extensions/system.storage
-  to: /extensions/system_storage
+- from: /extensions/themes
+  to: /docs/extensions/themes/
 
-- from: /extensions/api_
+- from: /extensions/tut_analytics
+  to: /docs/extensions/tut_analytics/
+
+- from: /extensions/tut_debugging
+  to: /docs/extensions/tut_debugging/
+
+- from: /extensions/tut_migration_to_manifest_v2
+  to: /docs/extensions/tut_migration_to_manifest_v2/
+
+- from: /extensions/tut_oauth
+  to: /docs/extensions/tut_oauth/
+
+- from: /extensions/user_interface
+  to: /docs/extensions/user_interface/
+
+- from: /extensions/user_privacy
+  to: /docs/extensions/user_privacy/
+
+- from: /extensions/webstore
+  to: /docs/extensions/webstore/
+
+- from: /extensions/xhr
+  to: /docs/extensions/xhr/
+
+- from: /extensions/about_apps
   to: 
 
-- from: /extensions/app_csp
+- from: /extensions/accessibilityFeatures
   to: 
 
-- from: /extensions/app_manifestVersion
+- from: /extensions/activeTab
+  to: 
+
+- from: /extensions/alarms
+  to: 
+
+- from: /extensions/app_codelab_mobile
+  to: 
+
+- from: /extensions/app_identity
+  to: 
+
+- from: /extensions/app_intents
+  to: 
+
+- from: /extensions/bookmarks
+  to: 
+
+- from: /extensions/browserAction
+  to: 
+
+- from: /extensions/browsingData
+  to: 
+
+- from: /extensions/certificateProvider
   to: 
 
 - from: /extensions/cloudMessaging
   to: 
 
+- from: /extensions/commands
+  to: 
+
+- from: /extensions/contentSecurityPolicy
+  to: 
+
+- from: /extensions/contentSettings
+  to: 
+
+- from: /extensions/contextMenus
+  to: 
+
+- from: /extensions/cookies
+  to: 
+
+- from: /extensions/debugger
+  to: 
+
+- from: /extensions/declarativeContent
+  to: 
+
 - from: /extensions/declaratively
+  to: 
+
+- from: /extensions/declarativeNetRequest
+  to: 
+
+- from: /extensions/declarativeWebRequest
+  to: 
+
+- from: /extensions/desktopCapture
+  to: 
+
+- from: /extensions/develop_apps
+  to: 
+
+- from: /extensions/devtools_inspectedWindow
+  to: 
+
+- from: /extensions/devtools_network
+  to: 
+
+- from: /extensions/devtools_panels
+  to: 
+
+- from: /extensions/devtools.inspectedWindow
+  to: 
+
+- from: /extensions/devtools.network
+  to: 
+
+- from: /extensions/devtools.panels
   to: 
 
 - from: /extensions/displaySource
@@ -220,7 +439,97 @@
 - from: /extensions/dns
   to: 
 
+- from: /extensions/documentScan
+  to: 
+
+- from: /extensions/downloads
+  to: 
+
+- from: /extensions/enterprise_deviceAttributes
+  to: 
+
+- from: /extensions/enterprise_hardwarePlatform
+  to: 
+
+- from: /extensions/enterprise_networkingAttributes
+  to: 
+
+- from: /extensions/enterprise_platformKeys
+  to: 
+
+- from: /extensions/enterprise.deviceAttributes
+  to: 
+
+- from: /extensions/enterprise.hardwarePlatform
+  to: 
+
+- from: /extensions/enterprise.networkingAttributes
+  to: 
+
+- from: /extensions/enterprise.platformKeys
+  to: 
+
+- from: /extensions/event_pages
+  to: 
+
+- from: /extensions/events
+  to: 
+
+- from: /extensions/experimental_browsingData
+  to: 
+
+- from: /extensions/experimental_contentSettings
+  to: 
+
+- from: /extensions/experimental_contextMenus
+  to: 
+
+- from: /extensions/experimental_cookies
+  to: 
+
 - from: /extensions/experimental_devtools_console
+  to: 
+
+- from: /extensions/experimental_devtools_inspectedWindow
+  to: 
+
+- from: /extensions/experimental_devtools_network
+  to: 
+
+- from: /extensions/experimental_devtools_panels
+  to: 
+
+- from: /extensions/experimental_devtools_resources
+  to: 
+
+- from: /extensions/experimental_history
+  to: 
+
+- from: /extensions/experimental_identity
+  to: 
+
+- from: /extensions/experimental_privacy
+  to: 
+
+- from: /extensions/experimental_storage
+  to: 
+
+- from: /extensions/experimental_webInspector
+  to: 
+
+- from: /extensions/experimental_webInspector_audits
+  to: 
+
+- from: /extensions/experimental_webInspector_panels
+  to: 
+
+- from: /extensions/experimental_webInspector_resources
+  to: 
+
+- from: /extensions/experimental_webRequest
+  to: 
+
+- from: /extensions/extension
   to: 
 
 - from: /extensions/extensions_index
@@ -229,14 +538,209 @@
 - from: /extensions/extensions/api_
   to: 
 
+- from: /extensions/extensions/runtime
+  to: 
+
+- from: /extensions/extensions/storage
+  to: 
+
+- from: /extensions/extensions/tabs
+  to: 
+
+- from: /extensions/extensionTypes
+  to: 
+
+- from: /extensions/fileBrowserHandler
+  to: 
+
+- from: /extensions/fileSystemProvider
+  to: 
+
+- from: /extensions/fontSettings
+  to: 
+
+- from: /extensions/gcm
+  to: 
+
+- from: /extensions/history
+  to: 
+
+- from: /extensions/i18n
+  to: 
+
+- from: /extensions/identity
+  to: 
+
+- from: /extensions/idle
+  to: 
+
 - from: /extensions/idltest
   to: 
 
+- from: /extensions/infobars
+  to: 
+
 - from: /extensions/inform_users
+  to: 
+
+- from: /extensions/input_ime
+  to: 
+
+- from: /extensions/input.ime
+  to: 
+
+- from: /extensions/instanceID
   to: 
 
 - from: /extensions/login
   to: 
 
 - from: /extensions/loginScreenStorage
+  to: 
+
+- from: /extensions/loginState
+  to: 
+
+- from: /extensions/management
+  to: 
+
+- from: /extensions/manifest/file_system_provider
+  to: 
+
+- from: /extensions/mdns
+  to: 
+
+- from: /extensions/migration
+  to: 
+
+- from: /extensions/nativeMessaging
+  to: 
+
+- from: /extensions/networking_config
+  to: 
+
+- from: /extensions/networking.config
+  to: 
+
+- from: /extensions/notifications
+  to: 
+
+- from: /extensions/npapi
+  to: 
+
+- from: /extensions/omniBox
+  to: 
+
+- from: /extensions/omnibox
+  to: 
+
+- from: /extensions/pageAction
+  to: 
+
+- from: /extensions/pageCapture
+  to: 
+
+- from: /extensions/permissions
+  to: 
+
+- from: /extensions/pillar
+  to: 
+
+- from: /extensions/platformKeys
+  to: 
+
+- from: /extensions/power
+  to: 
+
+- from: /extensions/printerProvider
+  to: 
+
+- from: /extensions/printing
+  to: 
+
+- from: /extensions/printingMetrics
+  to: 
+
+- from: /extensions/privacy
+  to: 
+
+- from: /extensions/private_apis
+  to: 
+
+- from: /extensions/processes
+  to: 
+
+- from: /extensions/proxy
+  to: 
+
+- from: /extensions/runtime
+  to: 
+
+- from: /extensions/sessions
+  to: 
+
+- from: /extensions/signedInDevices
+  to: 
+
+- from: /extensions/storage
+  to: 
+
+- from: /extensions/system_cpu
+  to: 
+
+- from: /extensions/system_memory
+  to: 
+
+- from: /extensions/system_storage
+  to: 
+
+- from: /extensions/system.cpu
+  to: 
+
+- from: /extensions/system.display
+  to: 
+
+- from: /extensions/system.memory
+  to: 
+
+- from: /extensions/system.storage
+  to: 
+
+- from: /extensions/tabCapture
+  to: 
+
+- from: /extensions/tabs
+  to: 
+
+- from: /extensions/topSites
+  to: 
+
+- from: /extensions/tts
+  to: 
+
+- from: /extensions/ttsEngine
+  to: 
+
+- from: /extensions/tutorials
+  to: 
+
+- from: /extensions/types
+  to: 
+
+- from: /extensions/vpnProvider
+  to: 
+
+- from: /extensions/wallpaper
+  to: 
+
+- from: /extensions/webNavigation
+  to: 
+
+- from: /extensions/webRequest
+  to: 
+
+- from: /extensions/whats_new
+  to: 
+
+- from: /extensions/windows
   to: 
