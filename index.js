@@ -15,12 +15,12 @@ function init() {
     targets: false,
     done: false
   };
-  if (fs.existsSync('./config.json')) {
-    config = require('./config.json');
-  }
-  if (config.history && !fs.existsSync('./done.txt')) {
-    fs.writeFileSync('./done.txt', '');
-  }
+  // if (fs.existsSync('./config.json')) {
+  //   config = require('./config.json');
+  // }
+  // if (config.history && !fs.existsSync('./done.txt')) {
+  //   fs.writeFileSync('./done.txt', '');
+  // }
   const eventsEmitter = new events.EventEmitter();
   eventsEmitter.addListener('ready', () => {
     // User has indicated that they want to record progress but we're not yet done
