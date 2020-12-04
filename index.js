@@ -36,7 +36,7 @@ async function migrate(targets, done) {
   let data = {
     ok: [],
     redirects: [],
-    '404s': []
+    errors: []
   };
   for (let i = 0; i < targets.length; i++) {
     const target = targets[i];
@@ -47,11 +47,13 @@ async function migrate(targets, done) {
       });
       const url = await page.url();
       if (url !== target) data.redirects.push({from: target, to: url});
-      if (response.status() === 404) data['404s'].push(target);
+      if (response.status() >= 400) data.errors.push(target);
     } catch (error) {
       console.error(`Error visiting ${target}`);
       continue;
     }
+    const redirects = data.errors.map(redirect => `- from: ${new URL(redirect).pathname}\n  to: `);
+    fs.writeFileSync('redirects.txt', redirects.join('\n\n'));
     fs.writeFileSync('report.txt', JSON.stringify(data, null, '  '));
   }
   console.log(data);

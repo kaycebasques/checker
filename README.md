@@ -10,4 +10,5 @@ A link checker.
 1. `npm i`
 1. `npm run check`
 
-The results will be written to `report.txt`.
+The results will be written to `report.txt` as JSON.
+Needed redirects will be written to `redirects.txt`.
