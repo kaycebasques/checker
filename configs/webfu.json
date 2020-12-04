@@ -1,0 +1,20 @@
+{
+  "selectors": {
+    "main": "article.devsite-article",
+    "title": "h1.devsite-page-title",
+    "date": "#docs-migration-tool-date",
+    "update": "#docs-migration-tool-update",
+    "description": "meta[name=\"description\"]"
+  },
+  "deletions": [
+    "devsite-tracking-question",
+    "div.devsite-banner",
+    "devsite-toc",
+    "div.devsite-article-meta",
+    "section.wf-byline",
+    "style"
+  ],
+  "modifications": "modifications/webfu.js",
+  "history": false,
+  "output": "/Users/kayce/Desktop/docs"
+}
